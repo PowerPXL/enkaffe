@@ -4,10 +4,10 @@ import Footer from "@/components/Footer";
 
 export const metadata = {
   title: {
-    default: "Min sajt",
-    template: "%s | Min sajt",
+    default: "1kaffe.se",
+    template: "%s | 1kaffe.se",
   },
-  description: "Grundbeskrivning",
+  description: "1kaffe.se arbetar med att erbjudda behövande kaffe och med en kopp värme.",
 };
 
 export default function RootLayout({
