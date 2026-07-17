@@ -1,5 +1,6 @@
 import ContentCard from "@/components/ContentCard";
 import ContentBlock from "@/components/ContentBlock";
+import Button from "@/components/button";
 
 export default function Home() {
   return (
@@ -7,6 +8,9 @@ export default function Home() {
       
       <ContentBlock title="Bjud på en kopp kaffe - 15 kr ">
       Vi samarbetar med organisationer som hjälper människor i nöd. Din gåva går direkt till dem som behöver det mest. Tack för att du sprider värme.
+      <Button variant="primary" className="my-8">
+        Skänk en kaffe
+      </Button>
       </ContentBlock>
       
             <ContentCard
