@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NavLink from "@/components/NavLink";
 import { CupSoda } from "lucide-react";
 
 export default function Header() {
@@ -7,8 +8,8 @@ export default function Header() {
       <div className="mx-auto grid max-w-5xl grid-cols-3 items-center px-6 py-6">
         
         <nav className="flex gap-6">
-          <Link href="/faq" className="hover:text-blue-600 transition-colors font-bold">FAQ</Link>
-          <Link href="/kontakt" className="hover:text-primary transition-colors font-bold">Kontakt</Link>
+          <NavLink href="/faq">FAQ</NavLink>
+          <NavLink href="/kontakt">Kontakt</NavLink>
         </nav>
 
         <div className="flex items-center justify-center gap-2 text-2xl font-bold">
@@ -19,7 +20,7 @@ export default function Header() {
         </div>
 
         <div className="text-right">
-          <Link href="/login" className="font-bold hover:text-blue-600 transition-colors">Login</Link>
+          <NavLink href="/login">Login</NavLink>
         </div>
 
       </div>
