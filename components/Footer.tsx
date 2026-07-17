@@ -14,7 +14,7 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Sitemap</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/" className="hover:text-blue-600 transition-colors">Hem</Link></li>
+              <li><Link href="/" className="hover:text-blue-600 transition-colors">Start</Link></li>
               <li><Link href="/faq" className="hover:text-blue-600 transition-colors">FAQ</Link></li>
               <li><Link href="/kontakt" className="hover:text-blue-600 transition-colors">Kontakt</Link></li>
             </ul>
@@ -22,9 +22,8 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Följ oss</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="#" className="hover:text-blue-600 transition-colors">Twitter</Link></li>
-              <li><Link href="#" className="hover:text-blue-600 transition-colors">LinkedIn</Link></li>
-              <li><Link href="#" className="hover:text-blue-600 transition-colors">GitHub</Link></li>
+              <li><Link href="#" className="hover:text-blue-600 transition-colors">Instagram</Link></li>
+              <li><Link href="#" className="hover:text-blue-600 transition-colors">TikTok</Link></li>
             </ul>
           </div>
         </div>

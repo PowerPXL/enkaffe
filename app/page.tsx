@@ -5,12 +5,12 @@ export default function Home() {
   return (
     <main className="flex flex-col gap-10">
       
-      <ContentBlock title="Bjud på en kopp kaffe till en behövande för 15 kr! ">
-      Vi samarbetar med organisationer som hjälper människor i nöd. Din gåva går direkt till dem som behöver det mest. Tack för att du bidrar!
+      <ContentBlock title="Bjud på en kopp kaffe - 15 kr ">
+      Vi samarbetar med organisationer som hjälper människor i nöd. Din gåva går direkt till dem som behöver det mest. Tack för att du sprider värme.
       </ContentBlock>
       
             <ContentCard
-        blockTitle="Hur det går till"
+        blockTitle="Så här funkar det"
         items={[
           {
             title: "Swish 15 kr",
