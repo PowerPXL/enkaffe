@@ -8,8 +8,8 @@ export default function Header() {
       <div className="mx-auto grid max-w-5xl grid-cols-3 items-center px-6 py-6">
         
         <nav className="flex gap-6">
-          <NavLink href="/faq">FAQ</NavLink>
-          <NavLink href="/kontakt">Kontakt</NavLink>
+          <NavLink href="/faq">Start</NavLink>
+          <NavLink href="/kontakt">Genväg</NavLink>
         </nav>
 
         <div className="flex items-center justify-center gap-2 text-2xl font-bold">
