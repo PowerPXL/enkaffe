@@ -11,7 +11,7 @@ export default function Button({
   children,
   ...props
 }: ButtonProps) {
-  const base = "px-4 py-2 rounded-xl font-medium transition-colors";
+  const base = "px-4 py-2 rounded-xl font-medium transition-colors flex items-center gap-2 justify-center whitespace-nowrap";
 
   const variants = {
     primary: "bg-primary text-background hover:opacity-90",
